@@ -1,0 +1,7 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* На всю высоту экрана */
+  width: 100vw; /* На всю ширину экрана */
+  overflow-x: hidden; /* Убираем горизонтальный скролл */
+}

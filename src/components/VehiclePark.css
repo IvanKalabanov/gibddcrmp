@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.vehicle-park-container {
+  color: #000000;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+.park-title {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.vehicle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.vehicle-card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 250px; /* Фиксированная высота карточки */
+}
+
+.vehicle-card:hover {
+  transform: translateY(-5px);
+}
+
+.vehicle-image {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Убираем padding */
+  overflow: hidden; /* Обрезаем выходящие за границы части */
+  flex: 0 0 40%; /* Занимает 40% ширины карточки */
+  height: 100%; /* Занимает всю высоту карточки */
+}
+
+.vehicle-image img {
+  width: 100%; /* Занимает всю ширину контейнера */
+  height: 100%; /* Занимает всю высоту контейнера */
+  object-fit: cover; /* Заполняет весь контейнер, сохраняя пропорции */
+  object-position: center; /* Центрирует изображение */
+}
+
+img{
+  width: 128px;
+  height: 144px;
+}
+
+
+.vehicle-info {
+  flex: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #dbdbdb;
+}
+
+.vehicle-info h2 {
+  color: #2563eb;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.vehicle-info p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .vehicle-card {
+    flex-direction: column;
+  }
+  
+  .vehicle-image {
+    min-width: auto;
+    height: 200px;
+  }
+}
