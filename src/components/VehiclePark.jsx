@@ -1,11 +1,11 @@
 import React from 'react';
 import './VehiclePark.css';
-import gallery1png from './img/gallery1.png.png';
-import gallery1jpg from './img/gallery1.png.jpg';
-import gallery2 from './img/gallery2.png.jpg';
-import gallery3 from './img/gallery3.png.jpg';
-import gallery4 from './img/gallery4.png.jpg';
-import gallery5 from './img/gallery5.png.jpg';
+import gallery1png from '../img/gallery1.png.png';
+import gallery1jpg from '../img/gallery1.png.jpg';
+import gallery2 from '../img/gallery2.png.jpg';
+import gallery3 from '../img/gallery3.png.jpg';
+import gallery4 from '../img/gallery4.png.jpg';
+import gallery5 from '../img/gallery5.png.jpg';
 
 function VehiclePark() {
   return (
