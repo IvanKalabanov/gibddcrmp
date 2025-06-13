@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contentone.css"
-import image281 from "./img/281.png";
-import image2186 from "./img/2186_logo.jpg";
+import image281 from "../img/281.png";
+import image2186 from "../img/2186_logo.jpg";
 
 function Contentone () {
     return(
