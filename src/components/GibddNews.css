@@ -1,0 +1,92 @@
+.gibdd-news {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+}
+
+.vacancy-container {
+    background-color: #f8f9fa;
+    border-left: 4px solid #2a5885;
+    margin-top: 30px;
+}
+
+.vacancy-title {
+    color: #2a5885;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.vacancy-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.8;
+}
+
+.vacancy-details p {
+    margin: 10px 0;
+}
+
+.vacancy-details strong {
+    color: #2a5885;
+}
+
+.news-header {
+    text-align: center;
+    color: #2a5885;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
+
+.news-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.news-card--vacancy {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+}
+
+.news-card h2 {
+    color: #d32f2f;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.news-card time {
+    display: block;
+    color: #666;
+    margin: 5px 0 15px;
+    font-size: 0.9em;
+}
+
+.news-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.news-button {
+    background: #2a5885;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.news-button:hover {
+    background: #1e3f6f;
+}
