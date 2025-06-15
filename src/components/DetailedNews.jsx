@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import img1 from './img/gallery7.jpg';
-import img2 from './img/3Z5uCfjvTTc.jpg'
+import img1 from '../img/gallery7.jpg';
+import img2 from '../img/3Z5uCfjvTTc.jpg'
 import "./DetailedNews.css";
 
 const newsDatabase = {
