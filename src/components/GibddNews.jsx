@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import img1 from "./img/gallery7.jpg"; // Импорт первой картинки
-import img2 from './img/3Z5uCfjvTTc.jpg'; // Импорт второй картинки
+import img1 from "../img/gallery7.jpg"; // Импорт первой картинки
+import img2 from '../img/3Z5uCfjvTTc.jpg'; // Импорт второй картинки
 import "./GibddNews.css";
 
 function GibddNews() {
